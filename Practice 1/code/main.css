@@ -1,0 +1,19 @@
+*   {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    width: 825px;
+    margin: 0 auto;
+    outline: 1px solid #f00;
+    background: url(../images/corked.png) 0 0 no-repeat;
+}
+
+header {
+    height: 178px;
+    width: 100%;
+    outline: 1px solid #00f;
+}
+
