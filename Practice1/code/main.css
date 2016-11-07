@@ -8,12 +8,673 @@ body {
     width: 825px;
     margin: 0 auto;
     outline: 1px solid #f00;
-    background: url(../images/corked.png) 0 0 no-repeat;
+    background-color: #e8e3d4;
+}
+
+body .tempimg img {
+    opacity: 0.4;
+    margin-left: -87px;
+    position: absolute;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #4d0015;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #4d0015;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #4d0015;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: #4d0015;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4d0015;
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+p {
+    font-size: 12.5px;
+    font-style: italic;
 }
 
 header {
     height: 178px;
     width: 100%;
     outline: 1px solid #00f;
+    position: relative;
 }
 
+.header_ul {
+    display: block;
+}
+
+.header_li {
+    /*float: left;*/
+    display: inline-block;
+    height: 100%;
+    margin-left: 62px;
+    margin-bottom: 6px;
+    vertical-align: bottom;
+}
+
+.header_li:first-child {
+    margin-left: 0;
+    margin-top: 87px;
+}
+
+.header_li:nth-child(2) {
+    padding-left: 3px;
+    box-sizing: border-box;
+    margin-left: 60px;
+}
+
+
+/*----------header_logo----------------*/
+.header_logo {
+    width: 245px;
+    outline: 1px solid #0f0;
+}
+
+.header_logo p {
+    color: #a39b82;
+    margin-left: 80px;
+}
+
+/*----------header_articles----------------*/
+.header_articles {
+    width: 260px;
+    outline: 1px solid #0f0;
+    /*margin-left: 61px;*/
+}
+
+.header_articles p {
+    color: #627f7b;
+    text-decoration: underline;
+    line-height: 18px;
+}
+
+/*----------header_search----------------*/
+.header_search {
+    width: 198px;
+    outline: 1px solid #0f0;
+}
+
+.header_search input {
+    width: 165px;
+    height: 32px;
+    background-color: #fff;
+    padding: 0 14px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*.header_search input::-webkit-input-placeholder { 
+   font-family: Helvetica, sans-serif;
+}*/
+
+.header_search span {
+    height: 16px;
+    width: 2px;
+    border-right: 1px solid #d4d4d4;
+    position: absolute;
+    top: 44px;
+    right: 34px;
+}
+
+.header_search button {
+    height: 32px;
+    width: 37px;
+    border-radius: 3px;
+    background-color: #fff;;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    margin-left: -10px;
+    border: none;
+    padding: 0;
+}
+
+.header_search button .fa{
+    color: #4d0015;
+    font-size: 13px;
+}
+
+.header_search p {
+    margin: 23px 0 6px 0;
+    text-align: right;
+    color: #5f5b50;
+}
+
+/*----------content----------------*/
+/*--------------slider----------------*/
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider_menu {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    outline: 1px solid #ff0;
+    display: block;
+    /*background-color: rgba(#000, #000, #000, 0.5);*/
+}
+
+.slider_menu li {
+    height: 100%;
+    /*outline: 1px solid #868;*/
+    padding: 23px 13px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color:  rgba(#000, #000, #000, 0.5);
+    line-height: 6px;
+}
+
+.slider_menu li:first-child {
+    margin-left: 10px;
+}
+
+.slider_menu li.active {
+    background-color: rgba(#500, #000, #000, 0.5);
+    /*box-shadow: */
+}
+
+.slider_img {
+    height: 258px;
+    width: 100%;
+    margin-top: 2px;
+    outline: 1px solid #fa0;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 135px;
+    background: transparent;
+    border: none;
+}
+
+button.prev {
+    left: -48px;
+}
+
+button.next {
+    right: -52px;
+}
+
+button.prev p, button.next p {
+    font-style: normal;
+    font-size: 10px;
+}
+
+/*--------------categories---------------*/
+.categories {
+    margin-top: 30px;
+}
+
+.categories_div {
+    display: inline-block;
+    outline: 1px solid #f00;
+    margin-left: 2px;
+    vertical-align: top;
+}
+
+.categories_left {
+    margin-left: 0;
+}
+
+.categories_left, .categories_right {
+    width: 232px;
+}
+
+.categories_middle {
+    width: 348px;
+    padding: 13px 13px 18px 13px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.categories_middle h3 {
+    margin: 19px 0 8px 9px;
+}
+
+.categories_middle p {
+    margin: 0 15px;
+    line-height: 19px;
+    font-size: 13.5px;
+    text-align: justify;
+}
+
+
+.selection_list li {
+    height: 132px;
+    outline: 1px solid #00f;
+    margin-top: 6px;
+}
+
+.selection_list li:first-child {
+    margin-top: 0;
+}
+
+.title {
+    position: relative;
+}
+
+.title h3, .title .circle {
+    display: inline-block;
+}
+
+.title .circle {
+    position: relative;
+    top: -4px;
+    left: 2px;
+    
+}
+
+/*--------------------more_sections---------------------*/
+.more_section {
+    width: 100%;
+    outline: 1px solid #468;
+    margin-top: 32px;
+    height: 1015px;
+    border-bottom: 1px solid #5f5b50;
+}
+
+.left_col_blog, .right_col_blog {
+    display: inline-block;
+    outline: 1px solid #658;
+    vertical-align: top;
+}
+
+.left_col_blog {
+    width: 567px;
+}
+
+.right_col_blog {
+    width: 208px;
+    margin-left: 45px;
+}
+
+/*------------------left_col_blog----------------*/
+/*--------------best_wine_post------------*/
+
+.best_wine_post {
+    margin-top: 35px;
+    outline: 1px solid #fa0;
+}
+
+.best_wine_post .temp_video {
+    margin: 20px 0 24px 0;
+}
+
+.best_wine_post p {
+    line-height: 18px;
+    text-align: justify;
+    margin: 0 4px;
+    font-style: initial;
+    /*text-decoration: none;*/
+}
+
+/*-------------tag_section--------------*/
+
+.tag_section {
+    margin-top: 15px;
+    outline: 1px solid #0f0;
+}
+
+.tag_section ul li {
+    display: inline-block;
+    outline: 1px solid #00f;
+    vertical-align: middle;
+}
+
+.tag_section ul li:first-child {
+    margin-left: 0;
+}
+
+.tag_section ul li:nth-child(2) {
+    margin-left: 5px;
+}
+
+.tag_section ul li:nth-child(3) {
+    margin-left: 25px;
+}
+
+.tag_section ul li:nth-child(4) {
+    margin-left: 5px;
+    letter-spacing: 0.2px;
+}
+
+.tag_section ul li:nth-child(5) {
+    margin-left: 28px;
+}
+
+.tag_section ul li:nth-child(6) {
+    margin-left: 10px;
+}
+
+.tag_section ul li:nth-child(2) p, .tag_section ul li:nth-child(4) p {
+    font-style: italic;
+    text-decoration: underline; 
+}
+
+.tag_section ul li:nth-child(3) p, .tag_section ul li:nth-child(5) p {
+    font-style: initial;
+    text-decoration: none;; 
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #000;
+    font-size: 10px;
+    padding: 3px 4px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.tag_section p {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+/*--------------wine_deals_post------------*/
+
+.wine_deals_post {
+    margin-top: 49px;
+    outline: 1px solid #fa0;
+}
+
+.wine_deals_post > div {
+    vertical-align: top;
+}
+
+.wine_deals_post .div_img {
+    height: 166px;
+    width: 247px;
+    margin-top: 26px;
+    display: inline-block;
+    outline: 1px solid #f00;
+}
+
+.wine_deals_post .text_paragraph {
+    height: 170px;
+    width: 50%;
+    margin: 26px 0 25px 25px;
+    display: inline-block;
+    outline: 1px solid #f00;
+}
+
+.text_paragraph p, .bottom_text p {
+    display: inline-block;
+    line-height: 18px;
+    text-align: justify;
+    font-style: initial;
+    font-size: 13px;
+}
+
+.wine_deals_post .text_paragraph p:nth-child(2){
+    margin-top: 28px;
+}
+
+.bottom_text {
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+
+.wine_deals_post .tag_section {
+    margin-top: 13px;
+}
+
+/*------------------right_col_blog----------------*/
+/*---------------subscribe_div---------------*/
+
+.right_col_blog .subscribe_div {
+    outline: 1px solid #fa0;
+    margin-top: 35px;
+}
+
+
+/*----------subscribe_search------------*/
+
+.subscribe_email_wrapper {
+    margin-top: 26px;
+    outline: 1px solid #0f0;
+}
+
+.subscribe_email_wrapper input {
+    width: 181px;
+    height: 32px;
+    background-color: #fff;
+    padding: 0 14px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*.subscribe_email_wrapper input::-webkit-input-placeholder { 
+   font-family: Helvetica, sans-serif;
+}*/
+
+.subscribe_email_wrapper span {
+    height: 16px;
+    width: 2px;
+    border-right: 1px solid #d4d4d4;
+    position: absolute;
+    top: 44px;
+    right: 34px;
+}
+
+.subscribe_email_wrapper button {
+    height: 32px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: #fff;;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    margin-left: -10px;
+    border: none;
+    padding: 0;
+}
+
+.subscribe_email_wrapper button .fa{
+    color: #4d0015;
+    font-size: 13px;
+}
+
+.subscribe_email_wrapper p {
+    margin: 23px 0 6px 0;
+    text-align: right;
+    color: #5f5b50;
+}
+
+/*-------------share_button------------*/
+
+.share_button {
+    margin-top: 35px;
+    outline: 1px solid #658;
+    height: 42px; /*temp*/
+}
+
+
+/*---------------popular_div---------------*/
+.popular_div {
+    margin-top: 36px;
+    outline: 1px solid #fa0;
+}
+
+.other_blogPost {
+    margin-top: 14px;
+}
+
+.other_blogPost ul li {
+    margin-top: 5px;
+}
+
+.other_blogPost ul li:first-child {
+    margin-top: 0px;
+}
+
+.other_blogPost ul li p {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #627f7b;
+}
+
+/*---------------tips_div---------------*/
+.tips_div {
+    margin-top: 43px;
+    outline: 1px solid #fa0;
+}
+
+.tips_div h4 {
+    margin-left: 5px;
+}
+
+.large_circle {
+    margin: 18px 0 0 5px;
+    height: 192px;
+    width: 192px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    padding: 50px 22px 22px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.large_circle p {
+    text-align: center;
+    line-height: 15px;
+}
+
+.large_circle p:nth-child(2) {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 31px;
+}
+
+.large_circle span {
+    width: 143px;
+    height: 1px;
+    position: absolute;
+    top: 131px;
+    background-color: #627f7b;
+}
+
+
+/*---------------------footer-------------------*/
+
+footer {
+    width: 100%;
+    height: 180px;
+    outline: 1px solid #00f;
+}
+
+footer ul {
+    margin-top: 55px;
+}
+
+footer ul .footer_section {
+    display: inline-block;
+    outline: 1px solid #fa0;
+    height: 100px; /*temp*/
+    width: 100px;
+    vertical-align: top;
+}
+
+footer ul .footer_section:first-child {
+    margin-left: 0;
+    width: 173px;
+}
+
+footer ul .footer_section:first-child p {
+    text-align: right;
+}
+
+footer ul .footer_section:nth-child(2) {
+    width: 94px;
+    margin-left: 56px;
+}
+
+footer ul .footer_section:nth-child(3) {
+    width: 120px;
+    margin-left: 58px;
+}
+
+footer ul .footer_section:nth-child(4) {
+    width: 85px;
+    margin-left: 60px;
+}
+
+footer ul .footer_section:nth-child(5) {
+    width: 112px;
+    margin-left: 47px;
+}
+
+.footer_section button {
+    margin-top: 23px;
+}
+
+.footer_section .footer_facebook {
+    margin-left: 126px;
+}
+
+.footer_section .footer_tumblr {
+    margin-left: 14px;
+}
+
+.footer_section h5 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer_section ul {
+    margin-top: 15px;
+}
+
+.footer_section ul li {
+    text-align: left;
+}
+
+.footer_section ul li p {
+    line-height: 17px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #627f7b;
+}
