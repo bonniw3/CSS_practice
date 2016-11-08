@@ -58,10 +58,18 @@ h6 {
     color: #fff;
 }
 
-p {
+p, a {
     font-family: Georgia, sans-serif;
     font-size: 12px;
     font-style: italic;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus, input:focus {
+    outline: none;
 }
 
 header {
@@ -114,12 +122,12 @@ header {
     /*outline: 1px solid #0f0;*/
 }
 
-.header_articles p {
+.header_articles a {
     color: #627f7b;
-    text-decoration: underline;
     line-height: 21px;
     letter-spacing: -0.5px;
 }
+
 
 /*----------header_search----------------*/
 .header_search {
@@ -200,6 +208,7 @@ header {
     background: linear-gradient(#2e2e2e, #111111); /* Standard syntax */
     line-height: 6px;
     position: relative;
+    cursor: pointer;
 }
 
 .slider_menu li:first-child {
@@ -221,6 +230,11 @@ header {
     background: -moz-linear-gradient(#6f0024, #410010); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#6f0024, #410010); /* Standard syntax */
     box-shadow: 2px 0px 2px #333333;
+}
+
+.slider_menu li a {
+    font-style: normal;
+    text-decoration: none;
 }
 
 .slider_menu .dot {
@@ -347,6 +361,10 @@ button.prev p, button.next p {
     margin: -10px auto 0 auto;
 }
 
+.more_button a {
+    text-decoration: none;
+}
+
 .more_button p {
     text-align: center;
     color: #5f5b50;
@@ -417,7 +435,7 @@ button.prev p, button.next p {
 }
 
 .tag_section ul li:nth-child(2) {
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 .tag_section ul li:nth-child(3) {
@@ -425,8 +443,7 @@ button.prev p, button.next p {
 }
 
 .tag_section ul li:nth-child(4) {
-    margin-left: 6px;
-    letter-spacing: 0.2px;
+    margin-left: 5px;
 }
 
 .tag_section ul li:nth-child(5) {
@@ -437,16 +454,13 @@ button.prev p, button.next p {
     margin-left: 7px;
 }
 
-.tag_section ul li:nth-child(2) p, .tag_section ul li:nth-child(4) p {
-    font-style: italic;
-    text-decoration: underline; 
-    letter-spacing: -0.5px;
-    color: #627f7b
+.tag_section ul li:nth-child(2) a, .tag_section ul li:nth-child(4) a {
+    letter-spacing: 0px;
+    color: #627f7b;
 }
 
 .tag_section ul li:nth-child(3) p, .tag_section ul li:nth-child(5) p {
     font-style: normal;
-    text-decoration: none;; 
     color: #5f5b50;
 }
 
@@ -459,12 +473,6 @@ button.prev p, button.next p {
     padding: 3px 4px;
     box-sizing: border-box;
     color: #fff;
-}
-
-.tag_section p {
-    margin: 0;
-    text-decoration: underline;
-    font-size: 13px;
 }
 
 .tag_section .tag_facebook {
@@ -480,6 +488,7 @@ button.prev p, button.next p {
 .tag_section button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 /*--------------wine_deals_post------------*/
@@ -659,7 +668,7 @@ button.prev p, button.next p {
 
 /*---------------popular_div---------------*/
 .popular_div {
-    margin-top: 38px;
+    margin-top: 28px;
     /*outline: 1px solid #fa0;*/
 }
 
@@ -675,11 +684,11 @@ button.prev p, button.next p {
     margin-top: 0px;
 }
 
-.other_blogPost ul li p {
-    font-size: 12px;
+.other_blogPost ul li a {
+    /*font-size: 12px;*/
     line-height: 15px;
-    letter-spacing: -0.2px;
-    text-decoration: underline;
+    display: block;
+    letter-spacing: -0.3px;
     color: #627f7b;
 }
 
@@ -728,11 +737,11 @@ button.prev p, button.next p {
      color: #fff;
 }
 
-.large_circle p:nth-child(2) {
+.large_circle a {
     text-align: center;
-    text-decoration: underline;
     margin-top: 31px;
     color: #627f7b;
+    display: block;
 }
 
 .large_circle span {
@@ -828,8 +837,8 @@ footer ul .footer_section:nth-child(5) {
     text-align: left;
 }
 
-.footer_section ul li p {
+.footer_section ul li a {
     line-height: 17px;
-    text-decoration: underline;
+    display: block;
     color: #627f7b;
 }
