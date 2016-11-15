@@ -13,6 +13,15 @@
     
     <header>
         <ul class="header_ul">
+            <li class="header_hamburger">
+                <a href="#">
+                    <div class="hamburger">
+                        <div class="top line"></div>
+                        <div class="middle line"></div>
+                        <div class="bottom line"></div>
+                    </div>
+                </a>
+            </li>
             <li class="header_logo header_li">
                 <h1>Corked Screwer</h1>
                 <p>Unique resource for wine lovers</p>
@@ -26,9 +35,12 @@
                 </ul>
             <!--</li>-->
             <li class="header_search header_li">
-                <input id="search_bar" type="search" placeholder="Search">
-                <span></span>
-                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                <div class="search_wrapper">
+                    <input id="search_bar" type="search" placeholder="Search">
+                    <span></span>
+                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <div class="clearfix"></div>
                 <p>The best blog about wine. We love wine and we can't live without it. See always the latest news and reviews</p>
             <!--</li>-->
         </ul>
@@ -63,16 +75,6 @@
                     <li><img src="../images/best.png" alt=""></li>
                 </ul>
             </div>
-            <div class="categories_middle categories_div">
-                <img src="../images/spirit.png" alt=""> 
-                <div class="title">
-                    <h3>The spirit of Italy</h3>
-                    <div class="circle">25</div>
-                </div>
-                <p>Italian wine is wine produced in Italy, a country which is home to some of the oldest wine-producuing regions
-                   in the world. Italy is one of the world's foremost produces, responsible for approximately one-fifth of world
-                   wine production in 2005.</p>
-            </div>
             <div class="categories_right categories_div">
                 <ul class="right_selection selection_list">
                     <li><img src="../images/cheese.png" alt=""></li>
@@ -80,6 +82,23 @@
                     <li><img src="../images/grapes.png" alt=""></li>
                 </ul>
             </div>
+            <div class="clearfix forRwd"></div>
+            <div class="categories_middle categories_div">
+                <div class="img_div">
+                    <img src="../images/spirit.png" alt=""> 
+                </div>             
+                <div class="title">
+                    <h3>The spirit of Italy</h3>
+                    <div class="circle">25</div>
+                    <p>Italian wine is wine produced in Italy, a 
+                    country which is home to some of the oldest 
+                    wine-producuing regions in the world. Italy 
+                    is one of the world's foremost produces, 
+                    responsible for approximately one-fifth of 
+                    world wine production in 2005.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
         </section>
         <article class="more_section">
             <div class="more_button">

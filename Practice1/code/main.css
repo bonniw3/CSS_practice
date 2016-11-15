@@ -73,10 +73,11 @@ button:focus, input:focus {
 }
 
 header {
-    height: 178px;
+    /*height: 178px;*/
     width: 100%;
     /*outline: 1px solid #00f;*/
     position: relative;
+    margin-bottom: 32px;
 }
 
 .header_ul {
@@ -90,24 +91,30 @@ header {
     vertical-align: top;
 }
 
-.header_li:first-child {
-    margin: 87px 0 0 0;
+/*-----------header_hamburger------------*/
+.header_hamburger {
+    display: none;
 }
 
-.header_li:nth-child(2) {
-    padding-left: 3px;
-    box-sizing: border-box;
-    margin: 34px 0 0 64px;
+.hamburger {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #4d0015;
 }
 
-.header_li:nth-child(3) {
-    margin: 34px 0 0 58px;
+.header_hamburger .line {
+    height: 3px;
+	width: 29px;
+	background-color: #4d0015;
+	position: relative;
+	top: 8px;
+	margin: 5px auto 0 auto;
 }
-
 
 /*----------header_logo----------------*/
 .header_logo {
     width: 245px;
+    margin: 87px 0 0 0;
     /*outline: 1px solid #0f0;*/
 }
 
@@ -119,6 +126,9 @@ header {
 /*----------header_articles----------------*/
 .header_articles {
     width: 260px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    margin: 34px 0 0 64px;
     /*outline: 1px solid #0f0;*/
 }
 
@@ -128,10 +138,10 @@ header {
     letter-spacing: -0.5px;
 }
 
-
 /*----------header_search----------------*/
 .header_search {
     width: 198px;
+    margin: 34px 0 0 58px;
     /*outline: 1px solid #0f0;*/
 }
 
@@ -174,7 +184,7 @@ header {
 }
 
 .header_search p {
-    margin: 23px 3px 6px 0;
+    margin: 23px 3px 0 0;
     text-align: right;
     color: #5f5b50;
     letter-spacing: -0.5px;
@@ -193,6 +203,11 @@ header {
     width: 100%;
     /*outline: 1px solid #ff0;*/
     display: block;
+    background: #111111; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2e2e2e, #111111); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2e2e2e, #111111); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2e2e2e, #111111); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2e2e2e, #111111);
 }
 
 .slider_menu li {
@@ -201,11 +216,11 @@ header {
     padding: 23px 13px;
     box-sizing: border-box;
     display: inline-block;
-    background: #111111; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#2e2e2e, #111111); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#2e2e2e, #111111); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#2e2e2e, #111111); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#2e2e2e, #111111); /* Standard syntax */
+    background: transparent;
+    /*background: -webkit-linear-gradient(#2e2e2e, #111111);
+    background: -o-linear-gradient(#2e2e2e, #111111);
+    background: -moz-linear-gradient(#2e2e2e, #111111);
+    background: linear-gradient(#2e2e2e, #111111);*/
     line-height: 6px;
     position: relative;
     cursor: pointer;
@@ -219,17 +234,13 @@ header {
     margin-left: 10px;
 }
 
-.slider_menu li:last-child {
-    width: 362px;
-}
-
 .slider_menu li.active {
     background: #4d0015; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#6f0024, #410010); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#6f0024, #410010); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#6f0024, #410010); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#6f0024, #410010); /* Standard syntax */
-    box-shadow: 2px 0px 2px #333333;
+    box-shadow: 2px 0px 1px #111111;
 }
 
 .slider_menu li a {
@@ -253,10 +264,16 @@ header {
 }
 
 .slider_img {
-    height: 258px;
+    position: relative;
+    /*height: 258px;*/
     width: 100%;
     margin-top: 2px;
     /*outline: 1px solid #fa0;*/
+}
+
+.slider_img img {
+    width: 100%;
+    /*height: 100%;*/
 }
 
 button.prev, button.next {
@@ -282,27 +299,33 @@ button.prev p, button.next p {
 
 /*--------------categories---------------*/
 .categories {
-    margin-top: 30px;
+    margin-top: 25px;
+    position: relative;
 }
 
 .categories_div {
-    display: inline-block;
+    /*display: inline-block;*/
     /*outline: 1px solid #f00;*/
-    margin-left: 2px;
+    /*margin-left: 2px;*/
     vertical-align: top;
 }
 
 .categories_left {
     margin-left: 0;
+    float: left;
 }
 
 .categories_left, .categories_right {
     width: 232px;
 }
+.categories .forRwd {
+    clear: none;
+}
 
 .categories_middle {
+    margin: 0 auto;
     width: 348px;
-    padding: 13px 13px 22px 13px;
+    padding: 13px 13px 21px 13px;
     box-sizing: border-box;
     background-color: #fff;
 }
@@ -319,11 +342,10 @@ button.prev p, button.next p {
     color: #5f5b50;
 }
 
-
 .selection_list li {
-    height: 132px;
+    /*height: 132px;*/
     /*outline: 1px solid #00f;*/
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 .selection_list li:first-child {
@@ -342,7 +364,10 @@ button.prev p, button.next p {
     position: relative;
     top: -6px;
     left: 10px;
-    
+}
+
+.categories_right {
+    float: right;
 }
 
 /*--------------------more_sections---------------------*/
@@ -350,7 +375,7 @@ button.prev p, button.next p {
     width: 100%;
     /*outline: 1px solid #468;*/
     margin-top: 32px;
-    height: 1015px;
+    /*height: 1015px;*/
     border-top: 1px solid #c5beaa;
     border-bottom: 1px solid #5f5b50;
 }
@@ -407,6 +432,10 @@ button.prev p, button.next p {
     margin: 20px 0 24px 0;
 }
 
+.left_col_blog .temp_video img {
+    width: 100%;
+}
+
 .best_wine_post p {
     line-height: 18px;
     text-align: justify;
@@ -434,24 +463,14 @@ button.prev p, button.next p {
     margin-left: 3px;
 }
 
-.tag_section ul li:nth-child(2) {
-    margin-left: 4px;
-}
-
-.tag_section ul li:nth-child(3) {
-    margin-left: 21px;
-}
-
-.tag_section ul li:nth-child(4) {
-    margin-left: 5px;
-}
-
+.tag_section ul li:nth-child(3), 
 .tag_section ul li:nth-child(5) {
-    margin-left: 28px;
+    margin-left: 2%;
 }
-
+.tag_section ul li:nth-child(2),
+.tag_section ul li:nth-child(4),
 .tag_section ul li:nth-child(6) {
-    margin-left: 7px;
+    margin-left: 1%;
 }
 
 .tag_section ul li:nth-child(2) a, .tag_section ul li:nth-child(4) a {
@@ -507,15 +526,19 @@ button.prev p, button.next p {
 }
 
 .wine_deals_post .div_img {
-    height: 166px;
+    /*height: 166px;*/
     width: 247px;
     margin: 26px 0 0 5px;;
     display: inline-block;
     /*outline: 1px solid #f00;*/
 }
 
+.wine_deals_post .div_img img {
+    width: 100%;
+}
+
 .wine_deals_post .text_paragraph {
-    height: 170px;
+    /*height: 170px;*/
     width: 50%;
     margin: 26px 0 25px 25px;
     display: inline-block;
@@ -544,7 +567,8 @@ button.prev p, button.next p {
 }
 
 .wine_deals_post .tag_section {
-    margin-top: 13px;
+    margin: 13px 0 65px 0;;
+
 }
 
 /*------------------right_col_blog----------------*/
@@ -841,4 +865,405 @@ footer ul .footer_section:nth-child(5) {
     line-height: 17px;
     display: block;
     color: #627f7b;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        width: 85%;
+    }
+    .header_li {
+        vertical-align: bottom;
+    }
+    .header_logo {
+        width: 47%;
+        margin: 11% 0 0 1%;
+    }
+    .header_articles {
+        display: none;
+    }
+    .header_search {
+        width: 48%;
+        margin: 44px 0 0 4%;
+    }
+    .header_search .search_wrapper {
+        /*outline: 1px solid #00f;*/
+        position: relative;
+        float: right;
+    }
+
+    .search_wrapper span {
+        top: 28%;
+        right: 11%;
+    }
+    .header_search input {
+        width: 250px;
+    }
+    .clearfix {
+        clear: both;
+    }
+
+    .header_search p {
+        margin: 23px 3px 0 50px;
+    }
+
+    .categories {
+        margin-top: 15px;
+    }
+    .categories_left, .categories_right {
+        width: 30%;
+        max-width: 232px;
+    }
+    .selection_list li img {
+        width: 100%;
+        max-width: 232px;
+    }
+    .selection_list li {
+        margin-top: 2%;
+    }
+    .categories_middle {
+        width: 40%;
+        padding: 13px 13px 20px 13px;
+    }
+
+    .categories_middle .title h3 {
+        margin: 5px 0 8px 0;
+    }
+    .categories_middle .img_div img{
+        width: 100%;
+    }
+    .categories_middle p {
+        margin: 0;
+        text-align: center;
+    }
+    .categories_middle .title {
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .left_col_blog {
+        width: 63%;
+    }
+    .right_col_blog {
+        width: 32%;
+        margin-left: 4%;
+    }
+    .wine_deals_post .div_img {
+        width: 90%;
+    }
+    .wine_deals_post .text_paragraph {
+        width: 90%;
+        margin: 26px 0 25px 3px;
+    }
+    .wine_deals_post .bottom_text {
+        width: 90%;
+    }
+    footer ul .footer_section:nth-child(2),
+    footer ul .footer_section:nth-child(3),
+    footer ul .footer_section:nth-child(4),
+    footer ul .footer_section:nth-child(5) {
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+/*---------------------header--------------------*/
+    .header_li {
+        text-align: center;
+        display: block;
+    }
+    
+    .header_logo {
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .header_logo p {
+        margin: 0 auto;
+    }
+    
+    .header_articles {
+        display: none;
+    }
+
+    .header_search {
+        width: 100%;;
+        margin: 3% 0 0 0;
+    }
+    
+    .header_search input {
+        width: 295px;
+    }
+
+    .header_search p {
+        margin: 3% 15% 0 15%;
+        text-align: center;
+    }
+
+
+/*-----------------content--------------------*/
+/*----------------slider-----------------*/    
+    .slider_img {
+        width: 100%;
+        overflow: hidden;
+    }
+    .slider_img img {
+        width: 125%;
+    }
+    .slider_menu li {
+        padding: 23px 11px;
+    }
+    .slider_menu .dot {
+        left: 91px;
+    }
+    .slider_menu .dot2 {
+        left: 98px;
+    }
+    button.prev {
+        left: 2%;
+        top: 45%;
+        color: #fff;
+    }
+    button.next {
+        right: 2%;
+        top: 45%;
+        color: #fff;
+    }
+
+/*--------------categories---------------*/
+    .categories {
+        margin-top: 15px;
+    }
+    .categories_div {
+        display: block;
+    }
+    .categories_left, .categories_right {
+        /*outline: 1px solid #fa0;*/
+        width: 100%;
+    }
+    .categories_div .selection_list {
+        width: 100%;
+        /*outline: 1px solid #0ff;*/
+    }
+    .categories_div .selection_list li {
+        width: 32.8%;
+        display: inline-block;
+        margin-top: 0;
+    }
+    .selection_list li img {
+        width: 100%;
+    }
+    .categories .forRwd {
+        clear: both;
+    }
+    .categories_middle {
+        width: 100%;
+        margin-top: 2px;
+    }
+    .categories_middle > div{
+        display: inline-block;
+        width: 48%;
+        /*outline: 1px solid #0f0;*/
+        vertical-align: top;
+    }
+    .categories_middle .img_div img {
+        width: 100%;
+    }
+    .categories_middle .title {
+        padding: 10px 5px;
+    }
+    .categories_middle h3 {
+        margin: 0 0 5px 5%;
+    }
+    .categories_middle p {
+        margin: 0 6%;
+    }
+/*--------------more_section---------------*/
+    .left_col_blog {
+        width: 100%;
+    }
+    .left_col_blog, .right_col_blog {
+        display: block;
+    }
+    .best_wine_post p {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .wine_deals_post {
+        width: 100%;
+    }
+    .wine_deals_post .tag_section {
+        margin: 13px 0 45px 0;
+    }
+    .wine_deals_post .div_img {
+        display: block;
+        width: 90%;
+        margin: 26px auto 0 auto;
+    }
+    .wine_deals_post .text_paragraph {
+        display: block;
+        width: 90%;
+        margin: 26px auto 10px auto;
+    }
+
+    .wine_deals_post .bottom_text {
+        width: 90%;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .right_col_blog {
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        /*outline: 1px solid #f00;*/
+    }
+    .right_col_div {
+        display: block;
+    }
+    .tips_div {
+        display: none;
+    }
+    .popular_div {
+        margin-bottom: 6%;
+    }
+    .subscribe_email_wrapper {
+        margin: 25px auto;
+        width: 79%;
+    }
+    .subscribe_email_wrapper input {
+        width: 91%;
+    }
+    .subscribe_email_wrapper span {
+        top: 28%;
+        right: 11%;
+    }
+    .share_button {
+        width: 100%;
+        text-align: center;
+    }
+    .share_button .count {
+        margin-left: 10%;
+    }
+    .share_button .count:first-child {
+        margin-left: 0;;
+    }
+    .number_count1, .number_count2, .number_count3 {
+        left: -2px;
+    }
+    .other_blogPost {
+        margin-left: 10%;
+    }
+    footer ul .footer_section:nth-child(2) {
+        margin-left: 0%;
+    }
+    
+    footer ul .footer_section:nth-child(3),
+    footer ul .footer_section:nth-child(4),
+    footer ul .footer_section:nth-child(5) {
+        margin-left: 3%;
+    }
+    footer ul .footer_section:first-child {
+        width: 100%;
+        text-align: center;
+    }
+    footer ul .footer_section:first-child p {
+        text-align: center;
+        margin-left: 10%;
+    }
+    .footer_section button {
+        margin-top: 10px;
+        margin-bottom: 5%;
+    }
+    footer ul {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer_section ul li {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 543px) {
+    .header {
+        margin-bottom: 20px;
+    }
+    .header_hamburger {
+        display: block;
+        margin: -2% 0 0 2%;
+        position: absolute;
+    }
+
+    .slider_menu {
+        display: none;
+    }
+    .slider_menu li {
+        display: none;
+    }
+    .slider_img img {
+        width: 165%;
+    }
+    button.prev {
+        left: 2%;
+        top: 40%;
+        color: #fff;
+    }
+    button.next {
+        right: 2%;
+        top: 40%;
+        color: #fff;
+    }
+
+    /*--------------categories---------------*/
+
+    .categories_middle {
+        display: none;
+    }
+
+    .categories_div .selection_list {
+        width: 100%;
+        /*outline: 1px solid #0ff;*/
+    }
+    .categories_div .selection_list li {
+        display: block;
+        width: 100%;
+    }
+    .categories_left, .categories_right {
+        width: 49%;
+        float: left;
+        /*outline: 1px solid #fa0;*/
+    }
+    .categories_right {
+        float: right;
+    }
+    .categories_left img, .categories_right img {
+        width: 100%;
+    }
+    .categories_div .right_selection li {
+        margin-top: 0px;
+    }
+
+    footer ul .footer_section:nth-child(2) {
+        margin-left: 0%;
+    }
+
+    footer ul .footer_section:nth-child(3), 
+    footer ul .footer_section:nth-child(4), 
+    footer ul .footer_section:nth-child(5) {
+        margin-left: 2%;
+    } 
+
 }
