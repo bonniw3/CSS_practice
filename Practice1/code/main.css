@@ -97,17 +97,17 @@ header {
 }
 
 .hamburger {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     border: 2px solid #4d0015;
 }
 
 .header_hamburger .line {
     height: 3px;
-	width: 29px;
+	width: 27px;
 	background-color: #4d0015;
 	position: relative;
-	top: 8px;
+	top: 6px;
 	margin: 5px auto 0 auto;
 }
 
