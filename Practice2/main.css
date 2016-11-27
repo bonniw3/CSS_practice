@@ -391,6 +391,7 @@ button.btn_subscribe p {
 .post_details .read_more {
     margin-top: 15px; 
     color: #212121;
+    cursor: pointer;
 }
 
 .post_details .read_more:before {
@@ -432,6 +433,7 @@ button.btn_subscribe p {
     display: inline-block;
     /*outline: 1px solid #f00;*/
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .post_actions .comment ul li p {
@@ -598,6 +600,7 @@ button.btn_subscribe p {
 
 .post7 .post_details .p_url {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /*-----------------------------right_col-----------------------------*/
@@ -669,6 +672,11 @@ button.btn_subscribe p {
     padding: 15px 0;
     border-bottom: 1px solid #f7f7f7;
     color: #212121;
+    cursor: pointer;
+}
+
+.categories ul li:first-child {
+    cursor: initial;
 }
 
 .categories ul li:first-child h3 {
@@ -723,12 +731,14 @@ button.btn_subscribe p {
     height: 99px;
     padding: 20px 0;
     border-bottom: 1px solid #f7f7f7;
+    cursor: pointer;
 }
 
 .latest_post ul li:first-child {
     height: 35px;
     padding: 0;
     text-align: center;
+    cursor: initial;
 }
 
 .latest_post ul li > div {
@@ -937,6 +947,7 @@ button.btn_subscribe p {
     margin: 1% 0 0 1%;
     /*outline: 1px solid #f0f;*/
     overflow: hidden;
+    cursor: pointer;
 }
 
 .footer_img_group img{
