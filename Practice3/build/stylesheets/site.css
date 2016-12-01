@@ -1753,16 +1753,16 @@ button.btn_subscribe p {
   margin: 2px; }
 
 /*----------------------posts-----------------------*/
-/* line 186, _homepage2.scss */
+/* line 185, _homepage2.scss */
 .col-md-3 {
   /* outline: 1px solid #00f; */ }
 
-/* line 190, _homepage2.scss */
+/* line 189, _homepage2.scss */
 .middle_content {
   /* height: 1423px;  */
   padding: 3% 1% 0 1%; }
 
-/* line 195, _homepage2.scss */
+/* line 194, _homepage2.scss */
 .home2_post {
   /* outline: 1px solid #468; */
   position: relative;
@@ -1770,31 +1770,31 @@ button.btn_subscribe p {
   width: 100%;
   cursor: pointer; }
 
-/* line 203, _homepage2.scss */
+/* line 202, _homepage2.scss */
 .home2_post:hover {
   box-shadow: 0 0 25px 3px #666;
   transition: 0.3s;
   transform: scale(1.01); }
 
-/* line 209, _homepage2.scss */
+/* line 208, _homepage2.scss */
 .home2_post .post_img {
   /*height: 430px;*/
   /* outline: 1px solid #ff0; */
   overflow: hidden; }
 
-/* line 215, _homepage2.scss */
+/* line 214, _homepage2.scss */
 .home2_post .post_img img {
   width: 100%;
   margin-top: -20%; }
 
-/* line 220, _homepage2.scss */
+/* line 219, _homepage2.scss */
 .home2_post .post_content {
   /*outline: 1px solid #658;*/
   position: relative;
   width: 100%;
   text-align: center; }
 
-/* line 227, _homepage2.scss */
+/* line 226, _homepage2.scss */
 .home2_post .img_btn {
   position: relative;
   margin: -11.5% auto 10% auto;
@@ -1806,37 +1806,37 @@ button.btn_subscribe p {
   line-height: 38px;
   z-index: 5; }
 
-/* line 239, _homepage2.scss */
+/* line 238, _homepage2.scss */
 .img_btn i {
   color: #fff;
   font-size: 19px; }
 
-/* line 244, _homepage2.scss */
+/* line 243, _homepage2.scss */
 .home2_post .post_details {
   box-sizing: border-box;
   padding: 5% 6% 4.5% 6%;
   /* background-color: transparent; */
   background-color: #fff; }
 
-/* line 251, _homepage2.scss */
+/* line 250, _homepage2.scss */
 .home2_post .post_details .post_tag {
   color: #999999;
   font-size: 12px; }
 
-/* line 256, _homepage2.scss */
+/* line 255, _homepage2.scss */
 .home2_post .post_details h2 {
   letter-spacing: 4px;
   margin-top: 8px;
   color: #212121; }
 
-/* line 262, _homepage2.scss */
+/* line 261, _homepage2.scss */
 .home2_post .post_details .date {
   margin-top: 7px;
   color: #999999;
   font-size: 12px;
   /*outline: 1px solid #fa0;*/ }
 
-/* line 269, _homepage2.scss */
+/* line 268, _homepage2.scss */
 .home2_post .post_details p {
   letter-spacing: 1px;
   margin-top: 10px;
@@ -1845,7 +1845,7 @@ button.btn_subscribe p {
   position: relative;
   color: #464646; }
 
-/* line 278, _homepage2.scss */
+/* line 277, _homepage2.scss */
 .home2_post .post_details .read_more {
   margin: 3% auto 7% auto;
   width: 112px;
@@ -1855,7 +1855,7 @@ button.btn_subscribe p {
   font-size: 12px;
   letter-spacing: 3px; }
 
-/* line 288, _homepage2.scss */
+/* line 287, _homepage2.scss */
 .home2_post .post_details .read_more:before {
   content: '';
   height: 26px;
@@ -1865,7 +1865,7 @@ button.btn_subscribe p {
   left: 0;
   top: -10%; }
 
-/* line 298, _homepage2.scss */
+/* line 297, _homepage2.scss */
 .home2_post .post_details .read_more:after {
   content: '';
   height: 26px;
@@ -1875,7 +1875,7 @@ button.btn_subscribe p {
   right: 0;
   top: -10%; }
 
-/* line 308, _homepage2.scss */
+/* line 307, _homepage2.scss */
 .home2_post .post_actions {
   border-top: 1px solid #f2f2f4;
   /*outline: 1px solid #867;*/
@@ -1886,36 +1886,36 @@ button.btn_subscribe p {
   background-color: #fff;
   /* background-color: transparent; */ }
 
-/* line 319, _homepage2.scss */
+/* line 318, _homepage2.scss */
 .home2_post .post_actions ul {
   margin-bottom: 0; }
 
-/* line 323, _homepage2.scss */
+/* line 322, _homepage2.scss */
 .home2_post .post_actions .comment {
   float: left; }
 
-/* line 327, _homepage2.scss */
+/* line 326, _homepage2.scss */
 .home2_post .post_actions .comment p {
   color: #999999;
   /* margin-right: 15px; */
   cursor: pointer;
   letter-spacing: 1px; }
 
-/* line 334, _homepage2.scss */
+/* line 333, _homepage2.scss */
 .home2_post .post_actions .comment p i {
   padding-right: 8px;
   color: #464646; }
 
-/* line 339, _homepage2.scss */
+/* line 338, _homepage2.scss */
 .home2_post .post_actions .share {
   float: right;
   width: 35%; }
 
-/* line 344, _homepage2.scss */
+/* line 343, _homepage2.scss */
 .home2_post .post_actions .share .social {
   width: 100%; }
 
-/* line 348, _homepage2.scss */
+/* line 347, _homepage2.scss */
 .home2_post .post_actions .share .social ul li {
   border-right: none;
   line-height: 0;
@@ -1923,55 +1923,55 @@ button.btn_subscribe p {
   width: 25%;
   color: #464646; }
 
-/* line 356, _homepage2.scss */
+/* line 355, _homepage2.scss */
 .home2_post .post_actions .share .social ul li:first-child {
   border-left: none; }
 
 /*--------------------------home2_post2------------------------*/
-/* line 364, _homepage2.scss */
+/* line 363, _homepage2.scss */
 .home2_post2 .post_img {
   /* height: 450px;*/ }
 
-/* line 368, _homepage2.scss */
+/* line 367, _homepage2.scss */
 .home2_post2 .post_img img {
   width: 108%;
   margin-left: -5%; }
 
 /*--------------------------home2_post3------------------------*/
 /*--------------------------home2_post4------------------------*/
-/* line 379, _homepage2.scss */
+/* line 378, _homepage2.scss */
 .home2_post4 .post_img {
   /* height: 223px; */ }
 
-/* line 383, _homepage2.scss */
+/* line 382, _homepage2.scss */
 .home2_post4 .post_img img {
   width: 136%;
   margin-left: -5%; }
 
 /*--------------------------home2_post5------------------------*/
-/* line 390, _homepage2.scss */
+/* line 389, _homepage2.scss */
 .home2_post5 {
   margin-top: 13%; }
 
-/* line 394, _homepage2.scss */
+/* line 393, _homepage2.scss */
 .home2_post5:hover {
   box-shadow: 0 0 25px 1px #111; }
 
-/* line 398, _homepage2.scss */
+/* line 397, _homepage2.scss */
 .home2_post5 .post_details {
   /* outline: 1px solid #0ff; */
   background-color: #212429;
   padding: 5% 5.5% 8.5% 5.5%; }
 
-/* line 404, _homepage2.scss */
+/* line 403, _homepage2.scss */
 .home2_post5 .post_details .img_btn {
   background-color: #fff; }
 
-/* line 408, _homepage2.scss */
+/* line 407, _homepage2.scss */
 .home2_post5 .post_details .img_btn i {
   color: #212429; }
 
-/* line 412, _homepage2.scss */
+/* line 411, _homepage2.scss */
 .home2_post5 .post_details blockquote {
   display: block;
   color: #fff;
@@ -1979,7 +1979,7 @@ button.btn_subscribe p {
   line-height: 25px;
   letter-spacing: 1.7px; }
 
-/* line 420, _homepage2.scss */
+/* line 419, _homepage2.scss */
 .home2_post5 .post_details p {
   color: #999999;
   margin-top: 7%;
@@ -1987,47 +1987,47 @@ button.btn_subscribe p {
   font-size: 12px; }
 
 /*--------------------------home2_post6---------------------------*/
-/* line 429, _homepage2.scss */
+/* line 428, _homepage2.scss */
 .home2_post6 {
   margin-top: 16%; }
 
-/* line 433, _homepage2.scss */
+/* line 432, _homepage2.scss */
 .home2_post6 .post_img {
   /* outline: 1px solid #ff0; */
   padding-top: 5%;
   box-sizing: border-box;
   overflow: visible; }
 
-/* line 440, _homepage2.scss */
+/* line 439, _homepage2.scss */
 .home2_post6 .img_btn {
   margin: -10% auto 0 auto; }
 
-/* line 444, _homepage2.scss */
+/* line 443, _homepage2.scss */
 .video_wrapper {
   /* outline: 1px solid #f0f; */
   margin-left: -0.5%;
   margin-top: -8%; }
 
-/* line 450, _homepage2.scss */
+/* line 449, _homepage2.scss */
 .home2_post6 .post_details {
   margin-top: -2%;
   padding: 4% 6% 6% 6%; }
 
 /*--------------------------home2_post7---------------------------*/
 /*--------------------------home2_post8---------------------------*/
-/* line 460, _homepage2.scss */
+/* line 459, _homepage2.scss */
 .home2_post8 {
   margin-top: 8%; }
 
-/* line 464, _homepage2.scss */
+/* line 463, _homepage2.scss */
 .home2_post8 .post_img {
   /* height: 223px; */ }
 
-/* line 468, _homepage2.scss */
+/* line 467, _homepage2.scss */
 .home2_post8 .post_img img {
   width: 100%; }
 
-/* line 472, _homepage2.scss */
+/* line 471, _homepage2.scss */
 .home2_post8 .post_img .img_small {
   width: 49.5%;
   margin: .5% 0 0 .8%;
@@ -2035,47 +2035,47 @@ button.btn_subscribe p {
   /* outline: 1px solid #f00; */
   overflow: hidden; }
 
-/* line 480, _homepage2.scss */
+/* line 479, _homepage2.scss */
 .home2_post8 .post_img .img_small:first-child {
   margin: 0; }
 
-/* line 484, _homepage2.scss */
+/* line 483, _homepage2.scss */
 .home2_post8 .post_img .img_small:nth-child(2) {
   margin-top: 0; }
 
-/* line 488, _homepage2.scss */
+/* line 487, _homepage2.scss */
 .home2_post8 .post_img .img_small:nth-child(3) {
   margin-left: 0; }
 
-/* line 492, _homepage2.scss */
+/* line 491, _homepage2.scss */
 .home2_post8 .post_img .img_small img {
   width: 136%;
   margin-left: -20%; }
 
 /*--------------------------home2_post9---------------------------*/
-/* line 499, _homepage2.scss */
+/* line 498, _homepage2.scss */
 .home2_post9 {
   margin-top: 13%; }
 
-/* line 503, _homepage2.scss */
+/* line 502, _homepage2.scss */
 .home2_post9:hover {
   box-shadow: 0 0 25px 1px #111; }
 
-/* line 507, _homepage2.scss */
+/* line 506, _homepage2.scss */
 .home2_post9 .post_details {
   /* outline: 1px solid #0ff; */
   background-color: #212429;
   padding: 5% 5.5% 16.5% 5.5%; }
 
-/* line 513, _homepage2.scss */
+/* line 512, _homepage2.scss */
 .home2_post9 .post_details .img_btn {
   background-color: #fff; }
 
-/* line 517, _homepage2.scss */
+/* line 516, _homepage2.scss */
 .home2_post9 .post_details .img_btn i {
   color: #212429; }
 
-/* line 521, _homepage2.scss */
+/* line 520, _homepage2.scss */
 .home2_post9 .post_details .p_url {
   text-decoration: underline;
   cursor: pointer;
@@ -2084,13 +2084,14 @@ button.btn_subscribe p {
   font-size: 15px; }
 
 /*--------------------------home2_post10---------------------------*/
-/* line 531, _homepage2.scss */
+/* line 530, _homepage2.scss */
 .home2_post10 {
   margin-top: 13%; }
 
-/* line 535, _homepage2.scss */
+/* line 534, _homepage2.scss */
 .home2_post10 .post_details {
   /* outline: 1px solid #0ff; */
+  /* background-color: #212429; */
   background-color: transparent;
   padding: 5% 0% 0% 0%; }
 
