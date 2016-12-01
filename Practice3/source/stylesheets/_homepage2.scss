@@ -6,8 +6,6 @@
     font-size: 13px;
 }
 
-
-
 /*------------------------content---------------------------*/
 .slider {
     position: relative;
@@ -182,8 +180,6 @@ button.btn_subscribe p {
     margin: 2px;
 }
 
-
-
 /*----------------------posts-----------------------*/
 
 .col-md-3 {
@@ -205,6 +201,8 @@ button.btn_subscribe p {
 
 .home2_post:hover {
     box-shadow: 0 0 25px 3px #666;
+    transition: 0.3s; 
+    transform: scale(1.01); 
 }
 
 .home2_post .post_img {
@@ -313,8 +311,8 @@ button.btn_subscribe p {
     position: relative;
     box-sizing: border-box;
     padding: 6% 8% 3.5% 9%;
-    /* background-color: #fff; */
-    background-color: transparent;
+    background-color: #fff; 
+    /* background-color: transparent; */ 
 }
 
 .home2_post .post_actions ul {
@@ -327,7 +325,7 @@ button.btn_subscribe p {
 
 .home2_post .post_actions .comment p {
     color: #999999;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     cursor: pointer;
     letter-spacing: 1px;
 }
@@ -339,13 +337,18 @@ button.btn_subscribe p {
 
 .home2_post .post_actions .share {
     float: right;
+    width: 35%;
 }
+
+.home2_post .post_actions .share .social { 
+    width: 100%; 
+} 
 
 .home2_post .post_actions .share .social ul li {
     border-right: none;
     line-height: 0;
     height: 15px;
-    width: 25px;
+    width: 25%;
     color: #464646;
 }
 
@@ -423,20 +426,29 @@ button.btn_subscribe p {
 
 /*--------------------------home2_post6---------------------------*/
 .home2_post6 {
-    margin-top: 13%;
+    margin-top: 16%;
 }
 
 .home2_post6 .post_img {
-    /*outline: 1px solid #ff0;*/
-    height: 225px; /*temp*/
+    /* outline: 1px solid #ff0; */ 
+    padding-top: 5%; 
+    box-sizing: border-box; 
+    overflow: visible; 
 }
 
 .home2_post6 .img_btn {
-    margin: -92.5% auto 85% auto;
-}
+    margin: -10% auto 0 auto; 
+} 
+ 
+.video_wrapper { 
+    /* outline: 1px solid #f0f; */ 
+    margin-left: -0.5%; 
+    margin-top: -8%; 
+} 
 
 .home2_post6 .post_details {
-    padding: 5% 6% 8% 6%;
+    margin-top: -2%; 
+    padding: 4% 6% 6% 6%; 
 }
 
 /*--------------------------home2_post7---------------------------*/
@@ -521,7 +533,8 @@ button.btn_subscribe p {
 
 .home2_post10 .post_details {
     /* outline: 1px solid #0ff; */
-    background-color: #212429;
+    /* background-color: #212429; */
+    background-color: transparent;
     padding: 5% 0% 0% 0%;
 }
 
@@ -535,8 +548,8 @@ button.btn_subscribe p {
 }
 
 .home2_post10 .img_wrapper {
-    height: 252px;
-    margin-top: -14%;
+    /* height: 252px; */ 
+    margin-top: -18%; 
     /* outline: 1px solid #0f0; */
     overflow: hidden;
 }
@@ -550,12 +563,12 @@ button.btn_subscribe p {
 /*--------------------------home2_post11------------------------*/
 
 .home2_post11 .post_img {
-    height: 450px;
+    /* height: 450px; */
 }
 
 .home2_post11 .post_img img {
-    width: 103%;
-    margin-left: -2%;
+    width: 100%;
+    /* margin-left: -2%; */
 }
 
 /*--------------------------home2_post12------------------------*/
@@ -567,13 +580,13 @@ button.btn_subscribe p {
 /*--------------------------home2_post13------------------------*/
 
 .home2_post13 {
-    margin-top: 14%;
+    margin-top: 10%;
 }
 
 .audio_image {
     /* outline: 1px solid #f00; */
     position: relative;
-    margin: 6% auto 44% auto;
+    margin: 6% auto 3% auto;
     width: 120px;
     height: 120px;
     border-radius: 50%; 
