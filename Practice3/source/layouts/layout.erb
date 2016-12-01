@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+    <!-- <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <div class="temp_div">
+        <!-- <img src="images/homepage2/homepage2.jpg" alt=""> -->
+    </div>
+    <div class="header_bkgd bkgd">
+        <div class="container my_container">
+            <header>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hamburger">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li><i class="fa fa-rss" aria-hidden="true"></i>
+                                <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                                <li><i class="fa fa-tumblr" aria-hidden="true"></i>
+                                <li><i class="fa fa-facebook" aria-hidden="true"></i>
+                                <li><i class="fa fa-search" aria-hidden="true"></i>
+                            </ul>
+                        </div>
+                        <div class="logo">
+                            <img src="images/index/logo.png" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div> 
+                </div>
+            </header>
+        </div>
+    </div>
+    <%= yield %>
+    <div class="footer_bkgd bkgd">
+        <div class="container my_container">
+            <footer>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 footer_block1">
+                        <h4>ABOUT BLOG</h4>
+                        <p>Lorem ipsum dolor sit amet, conser adipisicing
+                            esse cillum dolore nulla pariatur. </p>
+                        <div class="footer_img"></div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer_block2">
+                        <h4>LATEST TWEETS</h4>
+                        <div class="footer_tweets tweet1">
+                            <p><i class="fa fa-twitter" aria-hidden="true"></i>@Twitter@magicalrebekah</p>
+                            <p class="inner_text">Developer Advocate @heyval isaiyou knows the very well is about things.</p>
+                        </div>
+                        <div class="footer_tweets tweet2">
+                            <p><i class="fa fa-twitter" aria-hidden="true"></i>@Twitter@magicalrebekah</p>
+                            <p class="inner_text">Developer Advocate hav a great work this knows the very well is about things.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer_block3">
+                        <h4>FOLLOW ME INSTAGRAM</h4>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram1.jpg" alt="">
+                        </div>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram2.jpg" alt="">
+                        </div>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram3.jpg" alt="">
+                        </div>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram4.jpg" alt="">
+                        </div>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram5.jpg" alt="">
+                        </div>
+                        <div class="footer_img_group">
+                            <img src="images/index/instagram6.jpg" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer_block4">
+                        <h4>LATEST COMMENT</h4>
+                        <div class="footer_comment comment1">
+                            <p>From Alex :</p>
+                            <p>Developer Advocate @heyval isaiyou know the very well is talking about things .</p>
+                        </div>
+                        <div class="footer_comment comment2">
+                            <p>From Jhon Doe :</p>
+                            <p>Developer Advocate @heyval isaiyou know the very well is talking about things .</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="copyright">
+            <p>@2015 copyright .all right reserved by awesome theme   |   terms policy   |   disclaimer</p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
