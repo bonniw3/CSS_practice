@@ -115,8 +115,8 @@ button.play_btn img {
 	transform: rotate(-45deg);
 }
 
-#top_btn, #right_btn, #bottom_btn, #left_btn {
-	fill: #625363;
+#top_btn, #right_btn, #bottom_btn {
+	fill: #465;
 	stroke: none;
 	transition: 0.3s;
 	fill-rule: evenodd;
