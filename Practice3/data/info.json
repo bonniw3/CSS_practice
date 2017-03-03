@@ -1,0 +1,64 @@
+{
+
+"posts": [
+    {   "post_num": "home2_post1",
+        "posttype": "post_details",
+        "sourcetype":"",
+        "source": "",
+        "small_img": false,
+        "img_btn": "fa-pencil",
+        "post_tag": "TRAVELING",
+        "h2": "TRAVEL BEST ADVENTURE",
+        "date": "JANUARY 28, 2016",
+        "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. /n Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work.",
+        "post_actions": true,
+        "comment": "NO COMMENT"
+    },
+    {   "post_num": "home2_post2",
+        "posttype": "post_img",
+        "sourcetype":"image",
+        "source": "images/index/small_img3.jpg",
+        "small_img": false,
+        "img_btn": "",
+        "post_tag": "",
+        "h2": "",
+        "date": "",
+        "description": "",
+        "post_actions": false,
+        "comment": ""
+    },
+    {   "post_num": "home2_post3",
+        "posttype": "post_details",
+        "sourcetype":"",
+        "source": "",
+        "small_img": false,
+        "img_btn": "",
+        "post_tag": "TRAVELING",
+        "h2": "TRAVEL BEST ADVENTURE",
+        "date": "JANUARY 28, 2016",
+        "description": "Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua./n Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo tehampor incididunt uts laboasre etsa iusmod tehampor incididunt uts havlaboasre et dolhvaliqua. Ut enim  vem, choice is the have great work.",
+        "post_actions": false,
+        "comment": ""
+    },
+    {   "post_num": "home2_post4",
+        "posttype": "both",
+        "sourcetype":"image",
+        "source": "images/index/crowd.jpg",
+        "small_img": false,
+        "img_btn": "fa-picture-o",
+        "post_tag": "TRAVELING",
+        "h2": "STANDARD IMAGE POST",
+        "date": "JANUARY 25, 2016",
+        "description": "",
+        "post_actions": true,
+        "comment": "NO COMMENT"
+
+    }
+
+
+
+
+    ]
+
+}  
+

@@ -183,7 +183,27 @@ button.btn_subscribe p {
 /*----------------------posts-----------------------*/
 
 .middle_content {
-     padding: 3% 1% 0 1%;
+    padding: 3% 1% 0 1%;
+    outline: 1px solid #00f;
+    /* border:1px solid #ccc; */
+    position:relative;
+    /* color:#1F1818; */
+    /* background:#fff; */
+    /* padding:10px; */
+    /* width:80%; */
+    /* font-family:'楷体',"Arial Black", Gadget, sans-serif; */
+    /* font-size:16px; */
+    /* line-height:2em; */
+    /* margin:0 auto; */
+    column-count:4;
+    -webkit-column-count:4;/*兼容谷歌浏览器*/
+    column-gap:10px;
+    -webkit-column-gap:20px;
+    column-rule:1px dashed #ddd;
+    -webkit-column-rule:1px dashed #ddd;
+    text-align:justify;/*使文字两端对齐*/
+    text-justify:distribute-all-lines;/*使文字两端对齐*/
+    color:#1F1818;
 }
 
 .middle_content:first-child{
