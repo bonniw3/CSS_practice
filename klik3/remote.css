@@ -120,6 +120,7 @@ button.play_btn img {
 	stroke: none;
 	transition: 0.3s;
 	fill-rule: evenodd;
+	pointer-events:all;
 }
 
 /* #top_btn:hover, #right_btn:hover,
