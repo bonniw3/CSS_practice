@@ -51,7 +51,7 @@ body {
 	background-color: #362736;
 }
 .circle_btn:active, .mid_btn:active {
-	background-color: #362736;
+	/* background-color: #362736; */
 	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
 }
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
@@ -76,7 +76,18 @@ button.play_btn img {
 	width: 160px;
 }
 
-.upper_btn:hover img, .upper_btn:active img, .upper_btn:focus img {
+.upper_btn:hover img {
+	left: -50px;
+}
+.ok_btn:hover img {
+	left: -70px;
+}
+.play_btn:hover img {
+	left: -80px;
+}
+
+
+/* .upper_btn:hover img, .upper_btn:active img, .upper_btn:focus img {
 	left: -50px;
 }
 .ok_btn:hover img, .ok_btn:active img, .ok_btn:focus img {
@@ -84,7 +95,7 @@ button.play_btn img {
 }
 .play_btn:hover img, .play_btn:active img, .play_btn:focus img {
 	left: -80px;
-}
+} */
 
 
 /* ------- controller(middle remote) settings ------- */
@@ -117,9 +128,7 @@ button.play_btn img {
 } */
 
 #top_btn:hover, #right_btn:hover,
-#bottom_btn:hover, #left_btn:hover,
-#top_btn:active, #right_btn:active,
-#bottom_btn:active, #left_btn:active {
+#bottom_btn:hover, #left_btn:hover {
 	fill: #362736;
 }
 
