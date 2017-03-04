@@ -115,7 +115,7 @@ button.play_btn img {
 	transform: rotate(-45deg);
 	display: block;
 	margin: 0 auto;
-	
+
 }
 
 #top_btn, #right_btn, #bottom_btn, #left_btn {
@@ -230,6 +230,34 @@ button.play_btn img {
 .flex_equal_space {
 	display: flex;
 	justify-content: space-between;
+}
+
+
+
+/* circular menu settings */
+
+#menu { 
+	display:block; 
+	margin:0 auto;
+}
+
+/* a {
+	cursor:pointer; 
+	outline:none;
+} */
+
+.sector {
+	transition: all .3s linear;
+	fill: #625363;
+}
+
+.sector:hover, .sector:active, .sector:focus {
+	fill:#362736;
+}
+
+
+symbol {
+	overflow:visible;
 }
 
 
