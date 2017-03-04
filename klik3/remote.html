@@ -29,7 +29,46 @@
 					<img src="img/next.png">
 				</button>
 				<div class="controller">
-					<svg class="pie" width="173px" height="172px" viewBox="-2 -2 173 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<svg class="pie" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2 -2 504 504" id="menu" style="transform-origin: 50% 50% 0px; touch-action: none; user-select: none;">
+					<style>#menu{display:block;margin:0 auto;}a{cursor:pointer;outline:none;}.item .sector{transition:all .1s linear;fill:#fff;stroke:#111;}.item:hover .sector,.item:focus .sector{fill:#eee;}.menu-trigger{fill:#EA2A55;pointer-events:auto;}.menu-trigger:hover,.menu-trigger:focus{cursor:pointer;}symbol{overflow:visible;}</style>
+						<g id="symbolsContainer">    
+							<symbol class="icon icon-" id="icon-1" viewBox="0 0 35 35"><!--Replace the contents of this symbol with the content of your icon--><rect fill="none" stroke="#111" stroke-width="1" width="100%" height="100%"></rect><text fill="#222" x="50%" y="50%" dy=".3em" text-anchor="middle" font-size="1.2em">1</text></symbol>
+
+						    <symbol class="icon icon-" id="icon-2" viewBox="0 0 35 35"><!--Replace the contents of this symbol with the content of your icon--><rect fill="none" stroke="#111" stroke-width="1" width="100%" height="100%"></rect><text fill="#222" x="50%" y="50%" dy=".3em" text-anchor="middle" font-size="1.2em">2</text></symbol>
+
+						    <symbol class="icon icon-" id="icon-3" viewBox="0 0 35 35"><!--Replace the contents of this symbol with the content of your icon--><rect fill="none" stroke="#111" stroke-width="1" width="100%" height="100%"></rect><text fill="#222" x="50%" y="50%" dy=".3em" text-anchor="middle" font-size="1.2em">3</text></symbol>
+
+						    <symbol class="icon icon-" id="icon-4" viewBox="0 0 35 35"><!--Replace the contents of this symbol with the content of your icon--><rect fill="none" stroke="#111" stroke-width="1" width="100%" height="100%"></rect><text fill="#222" x="50%" y="50%" dy=".3em" text-anchor="middle" font-size="1.2em">4</text></symbol>
+						</g>
+						<g id="itemsContainer">        
+							<a class="item" id="item-1" role="link" tabindex="0" xlink:href="" xlink:title="" xlink:target="_parent" transform="matrix(1,0,0,1,0,0)" data-svg-origin="250 250" style="">
+								<path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 250.00000000000003,0 z"></path>
+								<use xlink:href="#icon-1" width="35" height="35" x="357.5" y="107.5" transform="rotate(45 375 125)"></use>
+							</a>
+						    <a class="item" id="item-2" role="link" tabindex="0" xlink:href="" xlink:title="" xlink:target="_parent" transform="matrix(0,-1,1,0,0,500)" data-svg-origin="250 250" style="">
+						    	<path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 250.00000000000003,0 z"></path>
+						    	<use xlink:href="#icon-2" width="35" height="35" x="357.5" y="107.5" transform="rotate(45 375 125)"></use>
+						    </a>
+						    <a class="item" id="item-3" role="link" tabindex="0" xlink:href="" xlink:title="" xlink:target="_parent" transform="matrix(-1,0,0,-1,500,500)" data-svg-origin="250 250" style="">
+						    	<path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 250.00000000000003,0 z"></path>
+						    	<use xlink:href="#icon-3" width="35" height="35" x="357.5" y="107.5" transform="rotate(45 375 125)"></use>
+						    </a>
+						    <a class="item" id="item-4" role="link" tabindex="0" xlink:href="" xlink:title="" xlink:target="_parent" transform="matrix(0,1,-1,0,500.00000000000006,0)" data-svg-origin="250 250" style="">
+						    	<path fill="none" stroke="#111" stroke-width="1" class="sector" d="M250,250 l250,0 A250,250 0 0,0 250.00000000000003,0 z"></path>
+						    	<use xlink:href="#icon-4" width="35" height="35" x="357.5" y="107.5" transform="rotate(45 375 125)"></use>
+						    </a>
+						</g>
+						<g id="trigger" class="trigger menu-trigger" role="button">
+							<circle cx="250" cy="250" r="80"></circle>
+						</g>
+					</svg>
+
+
+
+
+
+
+					<!-- <svg class="pie" width="173px" height="172px" viewBox="-2 -2 173 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 					    <path id="top_btn" d="M83,0 C129.944204,0 168,38.0557963 168,85 L83,85 L83,0 Z" name="top"></path>
 					    <g id="arrow" transform="translate(130.9, 35.9) rotate(45) translate(-130.9, -35.9) translate(116.4, 27.9)">
 					        <rect id="pill" transform="translate(12.07, 5.28) rotate(50) translate(-12.07, -5.28) " x="11.07" y="0.28" width="2" height="10" rx="1"></rect>
@@ -53,7 +92,7 @@
 					        <rect id="pill" transform="translate(12.07, 5.28) rotate(50) translate(-12.07, -5.28) " x="11.07" y="0.28" width="2" height="10" rx="1"></rect>
 					        <rect id="pill" transform="translate(18.47, 5.28) rotate(-50) translate(-18.47, -5.28) " x="17.47" y="0.28" width="2" height="10" rx="1"></rect>
 					    </g>
-					</svg>
+					</svg> -->
 					<button class="mid_btn light_pink_bg ok_btn" name="ok">
 						<img src="img/ok.svg">
 					</button>
