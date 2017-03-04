@@ -52,46 +52,26 @@ body {
 }
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
 	outline: none;
-	/* background-color: #362736; */
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
 }
+
+
+
+button[data-status="on"], button[data-play="on"] {
+	background-color: #362736;
+}
+button[data-status="off"] {
+	background-color: #625363;
+}
+button[data-play="off"] {
+	background-color: #A196A1;
+}
+
 
 .content_wrapper button img {
 	width: 100%;
 	position: relative;
 	left: 0;
 }
-
-button.upper_btn img {
-	width: 100px;
-}
-button.ok_btn img {
-	width: 140px;
-}
-button.play_btn img {
-	width: 160px;
-}
-
-.upper_btn:hover img {
-	left: -50px;
-}
-.ok_btn:hover img {
-	left: -70px;
-}
-.play_btn:hover img {
-	left: -80px;
-}
-
-
-/* .upper_btn:hover img, .upper_btn:active img, .upper_btn:focus img {
-	left: -50px;
-}
-.ok_btn:hover img, .ok_btn:active img, .ok_btn:focus img {
-	left: -70px;
-}
-.play_btn:hover img, .play_btn:active img, .play_btn:focus img {
-	left: -80px;
-} */
 
 
 /* ------- controller(middle remote) settings ------- */
@@ -103,10 +83,6 @@ button.play_btn img {
     cursor: pointer;
 }
 
-/* .controller img {
-	width: 100%;
-} */
-
 .controller .pie {
 	transform: rotate(-45deg);
 
@@ -117,18 +93,11 @@ button.play_btn img {
 	stroke: none;
 	transition: 0.3s;
 	fill-rule: evenodd;
-	/* pointer-events:all; */
 }
-
-/* #top_btn:hover, #right_btn:hover,
-#bottom_btn:hover, #left_btn:hover {
-	fill: #837684;
-} */
 
 #top_btn:hover, #right_btn:hover,
 #bottom_btn:hover, #left_btn:hover {
 	fill: #362736;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 #arrow {
@@ -136,6 +105,7 @@ button.play_btn img {
 	stroke: none;
 	fill-rule: evenodd;
 }
+
 #pill {
 	fill: #eeeeee;
 }
@@ -163,22 +133,6 @@ button.play_btn img {
 	font-family: Arial, sans-serif;
 	color: #412E41;
 }
-
-/* .sector_wrap {
-	width: 85px;
-	height: 85px;
-	overflow: hidden;
-} */
-
-/* .top_sector img {
-	width: 170px;
-	position: relative;
-	left: 0;
-}
-
-.top_sector:hover img {
-	left: -85px;
-} */
 
 
 
@@ -244,50 +198,4 @@ button.play_btn img {
 	display: flex;
 	justify-content: space-between;
 }
-
-
-
-/* circular menu settings */
-
-#menu { 
-	display:block; 
-	margin:0 auto;
-}
-
-/* a {
-	cursor:pointer; 
-	outline:none;
-} */
-
-.item .sector {
-	transition: all .3s linear;
-	fill: #625363;
-}
-
-.item:hover .sector, .item:active .sector, .item:focus .sector {
-	fill: #362736;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-
-symbol {
-	overflow:visible;
-}
-
-
-
-
-/* <style>
-	#menu{ display:block; margin:0 auto;}
-	a{ cursor:pointer; outline:none;}
-	.item .sector{transition:all .1s linear;fill:#fff;stroke:#111;}
-	.item:hover .sector,.item:focus .sector{fill:#eee;}
-	.menu-trigger{fill:#EA2A55;pointer-events:auto;}
-	.menu-trigger:hover,.menu-trigger:focus{cursor:pointer;}
-	symbol{overflow:visible;}
-</style> */
-
-
-
-
 
