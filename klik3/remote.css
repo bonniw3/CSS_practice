@@ -247,8 +247,9 @@ button.play_btn img {
 	fill: #625363;
 }
 
-.sector:hover, .sector:active, .sector:focus {
+.item:hover .sector, .item:active .sector, .item:focus .sector {
 	fill:#362736;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 
@@ -257,7 +258,7 @@ symbol {
 }
 
 button.item {
-	
+
 }
 
 
