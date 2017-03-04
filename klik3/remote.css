@@ -50,10 +50,6 @@ body {
 	/* background-color: #7E6D7F; */
 	background-color: #362736;
 }
-.circle_btn:active, .mid_btn:active {
-	/* background-color: #362736; */
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
-}
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
 	outline: none;
 	/* background-color: #362736; */
@@ -258,6 +254,10 @@ button.play_btn img {
 
 symbol {
 	overflow:visible;
+}
+
+button.item {
+	
 }
 
 
