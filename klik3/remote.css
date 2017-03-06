@@ -299,7 +299,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	}
 	
 	.bkgd {
-		min-height: 557px;
+		/* min-height: 557px; */
 	}
 	
 }
