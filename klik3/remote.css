@@ -4,7 +4,7 @@ body {
 	width: 375px;
 	min-width: 320px;
 	max-width: 400px;
-	min-height: 650px;
+	/* min-height: 667px; */
 	margin: auto;
 }
 
@@ -275,6 +275,10 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		right: 0;
 		margin: auto;
 	}
+
+	.content_wrapper {
+		padding: 3% 8%;
+	}
 }
 
 /* for iphone6/7 portrait */
@@ -289,6 +293,15 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		right: 0;
 		margin: auto;
 	}
+
+	.content_wrapper {
+		padding: 5% 8%;
+	}
+	
+	.bkgd {
+		min-height: 557px;
+	}
+	
 }
 
 /* for iphone6+/7+ protrait */
