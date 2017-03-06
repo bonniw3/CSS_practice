@@ -69,17 +69,17 @@
 				<button class="circle_btn purple_bg right marR15 marT15" name="forward">
 					<img src="img/forward.png">
 				</button>
-				<button class="circle_btn light_pink_bg marAuto play_btn large_circle" name="play_pause" data-play="on">
+				<button class="circle_btn light_pink_bg marAuto play_btn large_circle" name="play_pause" data-play="off">  <!-- data-play="on" 顯示顏色不一樣 -->
 					<img src="img/play_pause.png">
 				</button>
 			</div>
 
 			<div class="group_wrap marT25 padLR65">
 				<div class="left">
-					<button class="circle_btn purple_bg" name="stop" data-status="off">
+					<button class="circle_btn purple_bg" name="stop" data-status="off"> <!-- data-status="on" 顯示顏色不一樣 -->
 						<img src="img/stop.png">
 					</button>
-					<button class="circle_btn purple_bg marT30" name="mute" data-status="off">
+					<button class="circle_btn purple_bg marT30" name="mute" data-status="off"> <!-- data-status="on" 顯示顏色不一樣 -->
 						<img src="img/mute.png">
 					</button>
 				</div>
@@ -115,6 +115,13 @@
 </body>
 
 <script type="text/javascript">
+	
+	// detect if the device supports touch
+	var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+		if (!touchsupport){ // browser doesn't support touch
+		    document.documentElement.className += " non-touch"
+		}
+
 	// enabling css active styles
 	document.body.addEventListener("touchstart", function() {}, false);
 

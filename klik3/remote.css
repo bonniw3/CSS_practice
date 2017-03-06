@@ -49,11 +49,11 @@ body {
 	height: 50px;
 	transition: 0.3s;
 }
-.circle_btn:hover, .mid_btn:hover {
+
+html.nontouch .circle_btn:hover, html.nontouch  .mid_btn:hover {
 	background-color: #7E6D7F;
 } 
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
-	/* background-color: #362736; */
 	outline: none;
 }
 .circle_btn:active, .mid_btn:active {
@@ -103,8 +103,8 @@ button[data-play="off"] {
 	fill-rule: evenodd;
 }
 
-#top_btn:hover, #right_btn:hover,
-#bottom_btn:hover, #left_btn:hover {
+html.nontouch #top_btn:hover, html.nontouch #right_btn:hover,
+html.nontouch #bottom_btn:hover, html.nontouch #left_btn:hover {
 	fill: #7E6D7F;
 }
 
