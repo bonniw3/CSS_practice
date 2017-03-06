@@ -271,6 +271,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   	body, html {
 		position: fixed;
 		height: 100%;
+		width: 100%;
 	}
 
 	.content_wrapper {
@@ -289,6 +290,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
 		position: fixed;
 		height: 100%;
+		width: 100%;
 	}
 
 	.content_wrapper {
@@ -308,6 +310,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
 		position: fixed;
 		height: 100%;
+		width: 100%;
 	}
 }
 
