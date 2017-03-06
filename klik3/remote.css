@@ -50,16 +50,15 @@ body {
 	transition: 0.3s;
 }
 
-html.nontouch .circle_btn:hover, html.nontouch  .mid_btn:hover {
+/* html.nontouch .circle_btn:hover, html.nontouch .mid_btn:hover {
 	background-color: #7E6D7F;
-} 
+}  */
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
 	outline: none;
 }
 .circle_btn:active, .mid_btn:active {
 	background-color: #362736;
 }
-
 
 
 
@@ -103,10 +102,10 @@ button[data-play="off"] {
 	fill-rule: evenodd;
 }
 
-html.nontouch #top_btn:hover, html.nontouch #right_btn:hover,
+/* html.nontouch #top_btn:hover, html.nontouch #right_btn:hover,
 html.nontouch #bottom_btn:hover, html.nontouch #left_btn:hover {
 	fill: #7E6D7F;
-}
+} */
 
 #top_btn:focus, #right_btn:focus,
 #bottom_btn:focus, #left_btn:focus {
@@ -222,6 +221,18 @@ html.nontouch #bottom_btn:hover, html.nontouch #left_btn:hover {
 
 
 /* ------------------- media_queries -------------------- */
+
+@media only screen and (min-width: 767px) {
+	.circle_btn:hover, .mid_btn:hover {
+		background-color: #7E6D7F;
+	}
+
+	#top_btn:hover, #right_btn:hover,
+	#bottom_btn:hover, #left_btn:hover {
+		fill: #7E6D7F;
+	}
+
+}
 
 /* for ipad landscape */
 @media only screen and (min-device-width: 481px) 
