@@ -218,6 +218,10 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		right: 0;
 		margin: auto;
 	}
+
+	.content_wrapper {
+		padding: 11% 8%;
+	}
 }
 
 /* for iphone5/5s portrait */
