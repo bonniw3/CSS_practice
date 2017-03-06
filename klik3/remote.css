@@ -48,6 +48,7 @@ body {
 }
 .circle_btn:hover, .mid_btn:hover {
 	/* background-color: #7E6D7F; */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	background-color: #362736;
 }
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
@@ -98,6 +99,7 @@ button[data-play="off"] {
 #top_btn:hover, #right_btn:hover,
 #bottom_btn:hover, #left_btn:hover {
 	fill: #362736;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 #arrow {
