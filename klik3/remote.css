@@ -165,20 +165,7 @@ button[data-play="off"] {
 	float: right;
 }
 
-.padB25 {
-	padding-bottom: 32%;
-	height: 0;
-}
-.padB63 {
-	padding-bottom: 63%;
-	height: 0;
-}
-.padB40 {
-	padding-bottom: 40%;
-	height: 0;
-}
-
-.marT25 {
+.marTSpace {
 	margin-top: 7%;
 }
 .marT30 {
@@ -287,7 +274,11 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	}
 
 	.content_wrapper {
-		padding: 3% 8%;
+		padding: 2% 8%;
+	}
+
+	.marTSpace {
+		margin-top: 3%;
 	}
 }
 
@@ -301,7 +292,11 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	}
 
 	.content_wrapper {
-		padding: 5% 8%;
+		padding: 4% 8%;
+	}
+
+	.marTSpace {
+		margin-top: 6%;
 	}
 	
 }
