@@ -1,11 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	width: 375px;
+	/* width: 375px; */
 	min-width: 320px;
 	max-width: 400px;
-	/* position: fixed; */
-	/* height: 100%; */
 	/* min-height: 667px; */
 	margin: 0 auto;
 }
@@ -167,6 +165,19 @@ button[data-play="off"] {
 	float: right;
 }
 
+.padB25 {
+	padding-bottom: 32%;
+	height: 0;
+}
+.padB63 {
+	padding-bottom: 63%;
+	height: 0;
+}
+.padB40 {
+	padding-bottom: 40%;
+	height: 0;
+}
+
 .marT25 {
 	margin-top: 7%;
 }
@@ -194,6 +205,7 @@ button[data-play="off"] {
 .marR11p {
 	margin-right: 11.5%;
 }
+
 
 .padLR65 {
 	box-sizing: border-box;
@@ -270,12 +282,8 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   	body, html {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: auto;
+		position: fixed;
+		height: 100%;
 	}
 
 	.content_wrapper {
@@ -290,20 +298,10 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
 		position: fixed;
 		height: 100%;
-		/* position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: auto; */
 	}
 
 	.content_wrapper {
 		padding: 5% 8%;
-	}
-	
-	.bkgd {
-		/* min-height: 557px; */
 	}
 	
 }
@@ -313,12 +311,8 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 	body, html {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: auto;
+		position: fixed;
+		height: 100%;
 	}
 }
 
