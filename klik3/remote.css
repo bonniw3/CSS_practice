@@ -1,12 +1,18 @@
 body {
 	margin: 0;
 	padding: 0;
-	/* min-width: 320px; */
-	/* max-width: 400px; */
+	/* height: 100%; */
+	width: 375px;
+	min-width: 320px;
+	max-width: 400px;
 	/* width: 100vw; */
 	/* height: 100vh; */
 	/* max-height: 667px; */
-	/* margin: 0 auto; */
+	margin: 0 auto;
+	height: 100vh;
+	/* position: absolute;
+	top: 0;
+	bottom: 0; */
 }
 
 .temp_img {
@@ -14,17 +20,16 @@ body {
 	opacity: 0.5;
 	position: absolute;
 	top: 0;
-	margin: 0 auto;
 }
 
 .bkgd {
 	width: 100%;
 	height: 100%;
-	min-width: 320px;
-	max-width: 400px;
+	/* min-width: 320px; */
+	/* max-width: 400px; */
 	/* height: 100vh; */
-	max-height: 667px;
-	margin: 0 auto;
+	/* max-height: 667px; */
+	/* margin: 0 auto; */
 	border: 4px solid #625363;
 	border-radius: 35px;
 	box-sizing: border-box;
@@ -38,7 +43,7 @@ body {
 .content_wrapper {
 	width: 100%;
 	box-sizing: border-box;
-	padding: 18px 30px 20px 30px;
+	padding: 5% 8%;
 }
 
 .content_wrapper button {
@@ -164,24 +169,27 @@ button[data-play="off"] {
 }
 
 .marT5 {
-	margin-top: 5px;
+	margin-top: 1%;
 }
 .marT25 {
+	margin-top: 8%;
+}
+.marT25px {
 	margin-top: 25px;
 }
 .marT15 {
-	margin-top: 15px;
+	margin-top: 5%;
 }
 
 .marL15 {
-	margin-left: 15px;
+	margin-left: 5%;
 }
 .marL11p {
 	margin-left: 11.5%;
 }
 
 .marR15 {
-	margin-right: 15px;
+	margin-right: 5%;
 }
 .marR11p {
 	margin-right: 11.5%;
@@ -189,7 +197,7 @@ button[data-play="off"] {
 
 .padLR65 {
 	box-sizing: border-box;
-	padding: 0 65px;
+	padding: 0 21%;
 }
 
 .marAuto {
