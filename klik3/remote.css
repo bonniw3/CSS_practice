@@ -6,7 +6,6 @@ body {
 	max-width: 400px;
 	/* max-height: 667px; */
 	margin: auto;
-	-webkit-tap-highlight-color: rgba(54,39,54,0);
 }
 
 .temp_img {
@@ -50,15 +49,17 @@ body {
 	height: 50px;
 	transition: 0.3s;
 }
-/* .circle_btn:hover, .mid_btn:hover, */ 
-.circle_btn:active, .mid_btn:active {
-	/* background-color: #7E6D7F; */
-	/* -webkit-tap-highlight-color: rgba(54,39,54,0.8); */
-	background-color: #362736;
-}
+.circle_btn:hover, .mid_btn:hover {
+	background-color: #7E6D7F;
+} 
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
+	/* background-color: #362736; */
 	outline: none;
 }
+.circle_btn:active, .mid_btn:active {
+	background-color: #362736;
+}
+
 
 
 
@@ -87,6 +88,7 @@ button[data-play="off"] {
     width: 170px;
     height: 170px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .controller .pie {
@@ -99,18 +101,24 @@ button[data-play="off"] {
 	stroke: none;
 	transition: 0.3s;
 	fill-rule: evenodd;
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
-
 }
 
 #top_btn:hover, #right_btn:hover,
-#bottom_btn:hover, #left_btn:hover,
+#bottom_btn:hover, #left_btn:hover {
+	fill: #7E6D7F;
+}
+
+#top_btn:focus, #right_btn:focus,
+#bottom_btn:focus, #left_btn:focus {
+	outline: none;
+}
+
 #top_btn:active, #right_btn:active,
 #bottom_btn:active, #left_btn:active {
 	fill: #362736;
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
-	
 }
+	
+
 
 #arrow {
 	fill: none;
