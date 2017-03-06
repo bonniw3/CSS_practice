@@ -6,7 +6,6 @@ body {
 	max-width: 400px;
 	/* max-height: 667px; */
 	margin: auto;
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
 }
 
 .temp_img {
@@ -42,7 +41,7 @@ body {
 	padding: 0;
 	overflow: hidden;
 	cursor: pointer;
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0.8); */
+	-webkit-tap-highlight-color: rgba(54,39,54,0.8);
 }
 
 .circle_btn {
@@ -53,8 +52,8 @@ body {
 .circle_btn:hover, .mid_btn:hover, 
 .circle_btn:active, .mid_btn:active {
 	/* background-color: #7E6D7F; */
-	-webkit-tap-highlight-color: rgba(0,0,0,0.8);
-	background-color: #362736;
+	-webkit-tap-highlight-color: rgba(54,39,54,0.8);
+	/* background-color: #362736; */
 }
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
 	outline: none;
