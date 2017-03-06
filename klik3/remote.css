@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	/* width: 375px; */
+	width: 375px;
 	min-width: 320px;
 	max-width: 400px;
 	/* min-height: 667px; */
@@ -61,18 +61,6 @@ body {
 	background-color: #362736 !important;
 }
 
-
-/* button[data-status="on"], button[data-play="on"] {
-	background-color: #362736;
-}
-button[data-status="off"] {
-	background-color: #625363;
-}
-button[data-play="off"] {
-	background-color: #A196A1;
-} */
-
-
 .content_wrapper button img {
 	width: 100%;
 	position: relative;
@@ -112,7 +100,6 @@ button[data-play="off"] {
 }
 	
 
-
 #arrow {
 	fill: none;
 	stroke: none;
@@ -149,7 +136,6 @@ button[data-play="off"] {
 
 
 
-
 /* ------------- common_css -------------- */
 .light_pink_bg {
 	background-color: #A196A1;
@@ -178,7 +164,6 @@ button[data-play="off"] {
 	margin-top: 4%;
 }
 
-
 .marL15 {
 	margin-left: 5%;
 }
@@ -192,7 +177,6 @@ button[data-play="off"] {
 .marR11p {
 	margin-right: 11.5%;
 }
-
 
 .padLR65 {
 	box-sizing: border-box;
@@ -271,7 +255,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   	body, html {
 		position: fixed;
 		height: 100%;
-		width: 100%;
+		/* width: 100%; */
 	}
 
 	.content_wrapper {
