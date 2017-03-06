@@ -6,7 +6,7 @@ body {
 	max-width: 400px;
 	/* max-height: 667px; */
 	margin: auto;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
 }
 
 .temp_img {
