@@ -253,9 +253,9 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   	body, html {
-		position: fixed;
-		height: 100%;
-		/* width: 100%; */
+		/* position: fixed;
+		height: 100%; */
+		width: 100%;
 	}
 
 	.content_wrapper {
