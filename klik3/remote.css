@@ -41,7 +41,6 @@ body {
 	padding: 0;
 	overflow: hidden;
 	cursor: pointer;
-	/* -webkit-tap-highlight-color: rgba(54,39,54,0.8); */
 }
 
 .circle_btn {
@@ -50,9 +49,6 @@ body {
 	transition: 0.3s;
 }
 
-/* html.nontouch .circle_btn:hover, html.nontouch .mid_btn:hover {
-	background-color: #7E6D7F;
-}  */
 .circle_btn:focus, .mid_btn:focus, .pie:focus {
 	outline: none;
 }
@@ -92,7 +88,6 @@ button[data-play="off"] {
 
 .controller .pie {
 	transform: rotate(-45deg);
-	/* -webkit-tap-highlight-color: rgba(0,0,0,0); */
 }
 
 #top_btn, #right_btn, #bottom_btn, #left_btn {
@@ -101,11 +96,6 @@ button[data-play="off"] {
 	transition: 0.3s;
 	fill-rule: evenodd;
 }
-
-/* html.nontouch #top_btn:hover, html.nontouch #right_btn:hover,
-html.nontouch #bottom_btn:hover, html.nontouch #left_btn:hover {
-	fill: #7E6D7F;
-} */
 
 #top_btn:focus, #right_btn:focus,
 #bottom_btn:focus, #left_btn:focus {
@@ -222,14 +212,28 @@ html.nontouch #bottom_btn:hover, html.nontouch #left_btn:hover {
 
 /* ------------------- media_queries -------------------- */
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-device-width: 1025px) {
 	.circle_btn:hover, .mid_btn:hover {
 		background-color: #7E6D7F;
+	}
+	.circle_btn:focus, .mid_btn:focus, .pie:focus {
+	outline: none;
+	}
+	.circle_btn:active, .mid_btn:active {
+		background-color: #362736;
 	}
 
 	#top_btn:hover, #right_btn:hover,
 	#bottom_btn:hover, #left_btn:hover {
 		fill: #7E6D7F;
+	}
+	#top_btn:focus, #right_btn:focus,
+	#bottom_btn:focus, #left_btn:focus {
+		outline: none;
+	}
+	#top_btn:active, #right_btn:active,
+	#bottom_btn:active, #left_btn:active {
+		fill: #362736;
 	}
 
 }
