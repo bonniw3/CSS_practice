@@ -4,8 +4,10 @@ body {
 	width: 375px;
 	min-width: 320px;
 	max-width: 400px;
+	/* position: fixed; */
+	/* height: 100%; */
 	/* min-height: 667px; */
-	margin: auto;
+	margin: 0 auto;
 }
 
 .temp_img {
@@ -286,12 +288,14 @@ and (max-device-width: 1024px) and (orientation:landscape) {
   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 	body, html {
-		position: absolute;
+		position: fixed;
+		height: 100%;
+		/* position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		margin: auto;
+		margin: auto; */
 	}
 
 	.content_wrapper {
