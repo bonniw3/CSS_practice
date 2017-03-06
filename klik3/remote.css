@@ -57,8 +57,12 @@ body {
 }
 
 
+.cur_active {
+	background-color: #362736 !important;
+}
 
-button[data-status="on"], button[data-play="on"] {
+
+/* button[data-status="on"], button[data-play="on"] {
 	background-color: #362736;
 }
 button[data-status="off"] {
@@ -66,7 +70,7 @@ button[data-status="off"] {
 }
 button[data-play="off"] {
 	background-color: #A196A1;
-}
+} */
 
 
 .content_wrapper button img {
@@ -212,6 +216,7 @@ button[data-play="off"] {
 
 /* ------------------- media_queries -------------------- */
 
+/* for laptops only */
 @media only screen and (min-device-width: 1025px) {
 	.circle_btn:hover, .mid_btn:hover {
 		background-color: #7E6D7F;
