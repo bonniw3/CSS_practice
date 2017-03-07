@@ -236,12 +236,10 @@ body {
 and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
 		height: 100%;
-		/* max-width: 400px;
-		margin: 0 auto; */
 	}
 
 	.marTSpace {
-		margin-top: 9%;
+		margin-top: 10%;
 	}
 }
 
