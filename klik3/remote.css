@@ -237,10 +237,11 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
 		height: 100vh;
 		max-width: 400px;
+		margin: 0 auto;
 	}
 
 	.marTSpace {
-		margin-top: 9%;
+		margin-top: 8%;
 	}
 }
 
@@ -266,10 +267,6 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		height: 100vh;
 		width: 100vw;
 	}
-
-	/* .marTSpace {
-		margin-top: 6%;
-	} */
 }
 
 /* for iphone6+/7+ protrait */
