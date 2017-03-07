@@ -2,7 +2,6 @@ body {
 	padding: 0;
 	min-width: 320px;
 	max-width: 400px;
-	height: 667px;
 	margin: 0 auto;
 }
 
@@ -24,7 +23,6 @@ body {
 
 .content_wrapper {
 	width: 100%;
-	/* box-sizing: border-box; */
 	padding: 1% 8%;
 }
 
@@ -204,6 +202,7 @@ body {
 @media only screen and (min-device-width: 1025px) {
 	body {
 		width: 375px;
+		height: 667px;
 	}
 
 	.circle_btn:hover, .mid_btn:hover {
@@ -239,7 +238,7 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 	}
 
 	.marTSpace {
-		margin-top: 9%;
+		margin-top: 10%;
 	}
 }
 
