@@ -283,11 +283,11 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 @media only screen and (min-device-width: 375px) 
   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-	/* body, html {
-		position: fixed;
+	body, html {
+		/* position: fixed; */
 		height: 100%;
 		width: 100%;
-	} */
+	}
 
 	.content_wrapper {
 		padding: 4% 8%;
