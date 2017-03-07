@@ -1,17 +1,20 @@
 body {
-	margin: 0;
 	padding: 0;
 	min-width: 320px;
 	max-width: 400px;
+	height: 100%;
 	margin: 0 auto;
 }
 
 .bkgd {
 	width: 100%;
 	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border: 4px solid #625363;
 	border-radius: 35px;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	background: #726173;
 	background: -webkit-linear-gradient(rgba(232,231,232,1), rgba(167,154,167,1)); /*Safari 5.1-6*/
 	background: -o-linear-gradient(rgba(232,231,232,1), rgba(167,154,167,1)); /*Opera 11.1-12*/
@@ -19,9 +22,19 @@ body {
 	background: linear-gradient(rgba(232,231,232,1), rgba(167,154,167,1)); /*Standard*/
 }
 
+/* .helper {
+	width: 85%;
+	height: 90%;
+} */
+
 .content_wrapper {
 	width: 100%;
-	box-sizing: border-box;
+	/* width: 85%; */
+	/* height: 90%; */
+	/* margin: 0 auto; */
+
+	/* width: 100%; */
+	/* box-sizing: border-box; */
 	padding: 7% 8%;
 }
 
@@ -270,11 +283,11 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 @media only screen and (min-device-width: 375px) 
   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-	body, html {
+	/* body, html {
 		position: fixed;
 		height: 100%;
 		width: 100%;
-	}
+	} */
 
 	.content_wrapper {
 		padding: 4% 8%;
