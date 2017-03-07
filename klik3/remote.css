@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	min-width: 320px;
 	max-width: 400px;
-	height: 676px;
+	height: 667px;
 	margin: 0 auto;
 }
 
@@ -235,13 +235,13 @@ body {
 @media only screen and (min-device-width: 481px) 
 and (max-device-width: 1024px) and (orientation:landscape) {
 	body, html {
-		height: 100vh;
-		max-width: 400px;
-		margin: 0 auto;
+		height: 100%;
+		/* max-width: 400px;
+		margin: 0 auto; */
 	}
 
 	.marTSpace {
-		margin-top: 8%;
+		margin-top: 9%;
 	}
 }
 
