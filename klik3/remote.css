@@ -254,9 +254,9 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		width: 100vw;
 	}
 
-	.marTSpace {
+	/* .marTSpace {
 		margin-top: 3%;
-	}
+	} */
 }
 
 /* for iphone6/7 portrait */
