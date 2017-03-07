@@ -25,7 +25,7 @@ body {
 .content_wrapper {
 	width: 100%;
 	/* box-sizing: border-box; */
-	padding: 0 8%;
+	padding: 1% 8%;
 }
 
 .content_wrapper button {
@@ -267,9 +267,9 @@ and (max-device-width: 1024px) and (orientation:landscape) {
 		width: 100vw;
 	}
 
-	.marTSpace {
+	/* .marTSpace {
 		margin-top: 6%;
-	}
+	} */
 }
 
 /* for iphone6+/7+ protrait */
