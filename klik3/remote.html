@@ -77,7 +77,7 @@
 			<!-- 第四五排按鈕(左：stop,mute; 右：聲音高低) -->
 			<div class="group_wrap marTSpace padLR65">
 				<div class="left">
-					<button id="stopBtn" class="circle_btn purple_bg" name="stop">
+					<button class="circle_btn purple_bg" name="stop">
 						<img src="img/stop.png">
 					</button>
 					<button id="muteBtn" class="circle_btn purple_bg marT35" name="mute">
@@ -121,11 +121,8 @@
 	// 讓 css active style 可以出現
 	document.body.addEventListener("touchstart", function() {}, false);
 
-	// click btns: play, stop, mute 可以 toggle 顏色
+	// click btns: play, mute 可以 toggle 顏色
 	document.getElementById('playBtn').onclick = function() {
-	    this.classList.toggle('cur_active');
-	}
-	document.getElementById('stopBtn').onclick = function() {
 	    this.classList.toggle('cur_active');
 	}
 	document.getElementById('muteBtn').onclick = function() {
